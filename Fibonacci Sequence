@@ -1,0 +1,8 @@
+var s = [];
+s[0] = 0;
+s[1] = 1;
+function fibSeq(num){
+  for (i = 2; i < num; i++)
+  s[i] = s[i-1] + s[i-2];
+  console.log(s)
+}
